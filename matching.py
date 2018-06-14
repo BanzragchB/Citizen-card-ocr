@@ -29,7 +29,7 @@ template_names = []
 template_dir = "templates/"
 
 # Detect image
-img = cv2.imread('D:/Bachelor_Degree_Research_Work/Image_data/01_hajuu.jpg')
+img = cv2.imread('img_name')
 
 r = 800.0 / img.shape[1]
 dim = (800, int(img.shape[0] * r))
